@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.product-card {
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4rem 0;
+}
+
+.category-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
